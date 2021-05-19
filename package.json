@@ -1,0 +1,30 @@
+{
+  "name": "chat-socket-4",
+  "version": "1.0.0",
+  "description": "Chat example with socket.io 4 and admin ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "startAdmin": "node admin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkJ24/chat-socket-4.git"
+  },
+  "keywords": [
+    "chat",
+    "socket.io"
+  ],
+  "author": "DarkJ24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarkJ24/chat-socket-4/issues"
+  },
+  "homepage": "https://github.com/DarkJ24/chat-socket-4#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "@socket.io/admin-ui": "^0.1.1",
+    "socket.io": "^4.1.2"
+  }
+}
